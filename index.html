@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelajahi Budaya Indonesia!</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Dunia Budaya Indonesia!</h1>
+        <p>Klik gambar-gambar di bawah ini untuk belajar lebih banyak!</p>
+    </header>
+
+    <main id="konten-utama">
+        <div class="item-budaya" data-nama="Batik" data-deskripsi="Kain tradisional Indonesia dengan motif yang indah." data-audio="audio/suara-batik.mp3">
+            <img src="img/batik1.jpg" alt="Gambar Batik">
+            <h2>Batik</h2>
+        </div>
+
+        <div class="item-budaya" data-nama="Gamelan" data-deskripsi="Alat musik tradisional Jawa dan Bali yang merdu." data-audio="audio/suara-gamelan.mp3">
+            <img src="img/gamelan1.jpg" alt="Gambar Gamelan">
+            <h2>Gamelan</h2>
+        </div>
+
+        </main>
+
+    <div id="modal-detail" class="modal">
+        <div class="modal-konten">
+            <span class="tutup-modal">&times;</span>
+            <h3 id="detail-nama"></h3>
+            <p id="detail-deskripsi"></p>
+            <audio id="detail-audio" controls></audio>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jelajahi Budaya Indonesia FADIL,GILANG DAN HISYAM</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
