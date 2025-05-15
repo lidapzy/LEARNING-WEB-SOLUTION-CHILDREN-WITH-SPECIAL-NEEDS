@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #FFD700; /* Kuning Emas */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item-budaya {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item-budaya:hover {
+    transform: scale(1.05);
+}
+
+.item-budaya img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.modal {
+    display: none; /* Sembunyikan modal secara default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Latar belakang gelap transparan */
+}
+
+.modal-konten {
+    background-color: #fefefe;
+    margin: 15% auto; /* Tengah layar */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Bisa disesuaikan */
+    border-radius: 8px;
+    position: relative;
+}
+
+.tutup-modal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.tutup-modal:hover,
+.tutup-modal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#detail-audio {
+    width: 100%;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
